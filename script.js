@@ -1,5 +1,6 @@
 function enterPortal() {
   document.getElementById("gate").style.display = "none";
+  document.querySelector(".container").style.display = "block";
 }
 function updateTime() {
   const now = new Date();
