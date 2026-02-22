@@ -1,1 +1,1 @@
-# uam-pendaftaran
+# pendaftaran-uam
