@@ -2,7 +2,7 @@ function enterPortal() {
   const gate = document.getElementById("gate");
   const container = document.querySelector(".container");
 
-  container.style.display = "block";
+  container.style.opacity = "1"; 
   gate.classList.add("fade-out");
 
   setTimeout(function() {
