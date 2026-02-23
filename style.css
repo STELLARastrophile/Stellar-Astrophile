@@ -29,7 +29,20 @@ h1 {
   padding: 25px;
   border-radius: 20px;
   width: 100%;
+
+  display: block;
+  background: #0f172a;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  transition: 0.3s;
 }
+
+.card:hover {
+  transform: scale(1.05);
+  background: #1e293b;
+}
+
 #gate {
   position: fixed;
   top: 0;
