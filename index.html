@@ -6,11 +6,21 @@
 </head>  
 <body>  
 <div id="gate">  
-  <div class="gate-box">  
-    <h2>GERBANG MASUK</h2>  
-    <p>Halo para member uam!</p>  
-    <button onclick="enterPortal()">SAYA PAHAM & SIAP MASUK</button>  
-  </div>  
+  <div class="gate-box">
+  <h2>GERBANG MASUK</h2>
+  <p>Halo para member uam!</p>
+
+  <label>
+    <input type="checkbox" id="agree">
+    Saya sudah membaca dan setuju
+  </label>
+
+  <br><br>
+
+  <button id="enterBtn" onclick="enterPortal()" disabled>
+    MASUK
+  </button>
+  </div>
 </div>  
 <div class="container">
   <div class="status">● Semua Sistem Online</div>
