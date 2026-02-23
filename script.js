@@ -1,8 +1,14 @@
 function enterPortal() {
-  document.getElementById("gate").style.display = "none";
-  document.querySelector(".container").style.display = "block";
-}
+  const gate = document.getElementById("gate");
+  const container = document.querySelector(".container");
 
+  gate.classList.add("fade-out");
+
+  setTimeout(function() {
+    gate.style.display = "none";
+    container.style.display = "block";
+  }, 500);
+}
 function updateTime() {
   const now = new Date();
   document.getElementById("time").innerText =
