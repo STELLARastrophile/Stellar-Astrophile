@@ -29,7 +29,8 @@ h1 {
   padding: 25px;
   border-radius: 20px;
   width: 100%;
-
+  max-width: 400px;   
+  
   display: block;
   background: #0f172a;
   text-decoration: none;
@@ -56,4 +57,9 @@ h1 {
   z-index: 9999;
 }.container {
   display: none;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
