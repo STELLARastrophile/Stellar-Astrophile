@@ -2,11 +2,11 @@ function enterPortal() {
   const gate = document.getElementById("gate");
   const container = document.querySelector(".container");
 
+  container.style.display = "block";
   gate.classList.add("fade-out");
 
   setTimeout(function() {
     gate.style.display = "none";
-    container.style.display = "block";
   }, 500);
 }
 function updateTime() {
