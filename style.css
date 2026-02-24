@@ -1,8 +1,12 @@
+* {
+  box-sizing: border-box;
+}
 html {
   background: radial-gradient(circle at top, #111633, #050816);
 }
 
 body {
+  overflow-x: hidden;
   min-height: 100%;
   margin: 0;
   font-family: Arial;
