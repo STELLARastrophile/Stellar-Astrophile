@@ -64,7 +64,12 @@ h1 {
 .container {
   opacity: 0;
   transition: opacity 0.5s ease;
-}
+
+  padding: 60px 20px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  }
 .cards {
   display: flex;
   flex-direction: column;
