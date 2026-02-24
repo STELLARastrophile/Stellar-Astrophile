@@ -1,7 +1,11 @@
+html {
+  background: radial-gradient(circle at top, #111633, #050816);
+}
+
 body {
+  min-height: 100%;
   margin: 0;
   font-family: Arial;
-  background: radial-gradient(circle at top, #111633, #050816);
   color: white;
   text-align: center;
   font-size: 18px;
