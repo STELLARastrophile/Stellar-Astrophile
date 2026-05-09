@@ -2,11 +2,14 @@ function enterPortal() {
   const gate = document.getElementById("gate");
   const container = document.querySelector(".container");
 
-  gate.classList.add("fade-out");
+  container.style.display = "block";
+
+  requestAnimationFrame(() => {
+    gate.classList.add("fade-out");
+  });
 
   setTimeout(() => {
-    gate.style.display = "none";
-    container.style.display = "block";
+    gate.remove();
   }, 500);
 }
 function updateTime() {
