@@ -2,11 +2,9 @@ function enterPortal() {
   const gate = document.getElementById("gate");
   const container = document.querySelector(".container");
 
-  container.style.display = "block";
+  container.style.opacity = "1";
 
-  requestAnimationFrame(() => {
-    gate.classList.add("fade-out");
-  });
+  gate.classList.add("fade-out");
 
   setTimeout(() => {
     gate.remove();
