@@ -2,8 +2,12 @@ function enterPortal() {
   const gate = document.getElementById("gate");
   const container = document.querySelector(".container");
 
-  gate.style.display = "none";
-  container.style.display = "block";
+  gate.classList.add("fade-out");
+
+  setTimeout(() => {
+    gate.style.display = "none";
+    container.style.display = "block";
+  }, 500);
 }
 function updateTime() {
   const now = new Date();
