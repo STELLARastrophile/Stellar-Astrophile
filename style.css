@@ -17,11 +17,15 @@ html, body {
 }
 
 .container {
-  position: relative;
-  z-index: 1;
+  display: none;
+
   padding: 60px 20px;
   max-width: 500px;
   margin: auto;
+  text-align: center;
+
+  position: relative;
+  z-index: 1;
 }
 
 h1 {
