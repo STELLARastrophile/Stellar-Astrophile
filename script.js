@@ -5,9 +5,6 @@ function enterPortal() {
   container.style.opacity = "1"; 
   gate.classList.add("fade-out");
 
-  setTimeout(function() {
-    gate.style.display = "none";
-  }, 500);
 }
 function updateTime() {
   const now = new Date();
