@@ -76,8 +76,8 @@ h1 {
 
 .fade-out {
   opacity: 0;
-  pointer-events: none;
   transition: opacity 0.5s ease;
+  pointer-events: none;
 }
 .container {
   display: none;
