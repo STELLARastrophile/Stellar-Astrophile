@@ -12,7 +12,7 @@ function enterPortal() {
 function updateTime() {
   const now = new Date();
   document.getElementById("time").innerText =
-    now.toLocaleTimeString() + " // UAM-TIME";
+    now.toLocaleTimeString() + " // Time";
 }
 
 setInterval(updateTime, 1000);
