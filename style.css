@@ -72,26 +72,27 @@ h1 {
 
   z-index: 9999;
 
-  transition: opacity 0.5s ease;
+  opacity: 1;
 }
 
 .fade-out {
   opacity: 0;
-  pointer-events: none;
+  transition: opacity 0.5s ease;
 }
 .container {
-  opacity: 0;
-  transition: opacity 0.5s ease;
+  display: none;
 
   padding: 60px 20px;
   max-width: 500px;
   margin: auto;
   text-align: center;
-  }
+}
 .cards {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  opacity: 1;
 }
 .gate-box {
   text-align: center;
