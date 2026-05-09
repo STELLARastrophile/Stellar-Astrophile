@@ -17,15 +17,14 @@ html, body {
 }
 
 .container {
-  display: none;
+  opacity: 0;
 
   padding: 60px 20px;
   max-width: 500px;
   margin: auto;
   text-align: center;
 
-  position: relative;
-  z-index: 1;
+  transition: opacity 0.5s ease;
 }
 
 h1 {
