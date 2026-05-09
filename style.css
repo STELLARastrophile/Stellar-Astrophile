@@ -88,3 +88,33 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
+.gate-box {
+  width: 90%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.gate-box h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.gate-box p {
+  font-size: 20px;
+}
+
+#enterBtn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  background: #2563eb;
+  color: white;
+}
+
+#enterBtn:disabled {
+  opacity: 0.5;
+}
