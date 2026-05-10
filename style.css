@@ -66,10 +66,11 @@ h1 {
 }
 
 #gate {
+  will-change: opacity;
   position: fixed;
   inset: 0;
 
-  background: radial-gradient(circle at top, #111633, #050816);
+  background: red;
 
   display: flex;
   justify-content: center;
@@ -82,15 +83,15 @@ h1 {
 }
 
 .fade-out {
-  animation: fadeOut 0.5s forwards;
+  animation: fadeOut 1s forwards;
 }
 
 @keyframes fadeOut {
-  from {
+  0% {
     opacity: 1;
   }
 
-  to {
+  100% {
     opacity: 0;
   }
 }
