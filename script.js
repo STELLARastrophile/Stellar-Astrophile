@@ -4,7 +4,9 @@ function enterPortal() {
 
   container.classList.add("show");
 
-  gate.classList.add("fade-out");
+  requestAnimationFrame(() => {
+    gate.classList.add("fade-out");
+  });
 
   setTimeout(() => {
     gate.remove();
