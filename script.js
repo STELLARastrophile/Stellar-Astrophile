@@ -4,12 +4,10 @@ function enterPortal() {
 
   container.classList.add("show");
 
-  requestAnimationFrame(() => {
-    gate.classList.add("fade-out");
-  });
+  gate.classList.add("fade-out");
 
   setTimeout(() => {
-    gate.remove();
+    gate.style.display = "none";
   }, 500);
 }
 function updateTime() {
