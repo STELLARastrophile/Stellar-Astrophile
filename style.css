@@ -70,7 +70,7 @@ h1 {
   position: fixed;
   inset: 0;
 
-  background: red;
+  background: radial-gradient(circle at top, #111633, #050816);
 
   display: flex;
   justify-content: center;
