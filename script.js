@@ -7,7 +7,7 @@ function enterPortal() {
   gate.classList.add("fade-out");
 
   setTimeout(() => {
-    gate.style.display = "none";
+    gate.style.visibility = "hidden";
   }, 500);
 }
 function updateTime() {
